@@ -259,6 +259,13 @@ background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, F
 	.social__media--wrapper{flex-direction: column;}
 }
 
+
+@media screen and (max-width: 768px)
+{
+	.fa-users{font-size:9rem}
+}
+
+
 @media screen and (max-width: 480px)
 {
 	.footer__links__items{margin:0px;padding: 10px;width: 100%;}
